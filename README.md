@@ -81,16 +81,48 @@ The analysis uses two main data sources:
 The analysis reveals several important insights about MercadoLibre's search traffic and stock performance:
 
 1. Search Traffic Patterns
-   - [To be completed after analysis]
+   - Looking at the hourly trends analysis and Prophet components plot, search traffic peaks during the late night/early morning hours, specifically around midnight to 1 AM.
+   - This suggests users are most active in their search behavior during these late hours.
+     
 
 2. Seasonality Insights
-   - [To be completed after analysis]
+- The total search traffic for May 2020 was significantly higher than usual
+- When compared to the median monthly traffic:
+- May 2020 total search traffic was higher than the median monthly traffic
+- The ratio shows that May 2020's traffic was approximately 1.08 times higher than the median
+- This represents an 8% increase in search traffic compared to the typical monthly traffic
+- This increase suggests that the release of MercadoLibre's financial results did generate increased interest and search activity from the public during that period.
+
+Hourly Patterns:
+- Search traffic shows strong daily cyclical patterns
+- Peak activity occurs during the late night/early morning hours
+- Lowest activity is during normal business hours
+- This suggests users are most active in searching during non-working hours
+
+Daily Patterns:
+- Search traffic varies by day of the week
+- Tuesday shows the highest search activity
+- Weekend days (Saturday and Sunday) show lower search volumes
+This indicates stronger user engagement during weekdays
+
+Weekly/Seasonal Patterns:
+- Search traffic shows consistent weekly cycles
+- There's a notable seasonal trend throughout the year
+- October shows the lowest search activity
+- Search activity tends to increase during the winter months
+- There's a clear drop in search traffic during holiday periods
 
 3. Stock Price Relationships
-   - [To be completed after analysis]
+- There is no strong predictable relationship between:
+- Lagged Search Traffic and Stock Volatility:
+- The correlation is very weak, showing that search traffic from the previous hour doesn't have a significant relationship with stock price volatility.
 
-4. Future Predictions
-   - [To be completed after analysis]
+Lagged Search Traffic and Stock Returns:
+- Similarly, there is a very weak correlation between lagged search traffic and hourly stock returns.
+- This suggests that search trends don't effectively predict stock price movements in the following hour.
+- The correlation values are close to zero, indicating that these variables move independently of each other.
+- This means that search traffic patterns alone may not be a reliable predictor of either stock volatility or returns in the short term.
+
 
 ## Setup & Usage
 1. Clone the repository:
@@ -118,8 +150,4 @@ The analysis reveals several important insights about MercadoLibre's search traf
 - Visualizations include comprehensive labels and explanations
 - All findings include detailed written interpretations
 
-## Support
-For questions or issues:
-1. Raise an issue in the repository
-2. Contact instructional staff
-3. Utilize provided support services
+
