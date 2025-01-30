@@ -6,8 +6,6 @@ This repository contains the analysis of MercadoLibre's Google search traffic da
 ## Repository Information
 - Repository Name: prophet-challenge
 - Purpose: Module 8 Challenge Assignment
-- Author: [Your Name]
-- Date: January 2024
 
 ## Code Attribution
 All code in this repository is original work, following the starter code provided in the assignment. The implementation uses standard libraries and follows documented approaches from:
@@ -16,20 +14,6 @@ All code in this repository is original work, following the starter code provide
 - matplotlib documentation
 
 This project analyzes MercadoLibre's Google search traffic data and stock price patterns to identify trends and forecast future patterns using Prophet. The analysis includes examining unusual patterns in hourly search traffic, mining search traffic data for seasonality, relating search traffic to stock price patterns, and creating time series models.
-
-## Project Structure
-```
-prophet-challenge/
-├── forecasting_net_prophet.ipynb    # Main analysis notebook with:
-│   ├── Search Traffic Pattern Analysis
-│   ├── Seasonality Mining
-│   ├── Stock Price Pattern Analysis
-│   └── Prophet Time Series Model
-├── README.md                        # Project documentation
-└── Resources/                       # Data directory
-    ├── google_hourly_search_trends.csv  # Google search data
-    └── mercado_stock_price.csv          # Stock price data
-```
 
 ## Requirements
 - Python 3.x
@@ -111,7 +95,7 @@ The analysis reveals several important insights about MercadoLibre's search traf
 ## Setup & Usage
 1. Clone the repository:
    ```bash
-   git clone [repository-url]
+   git clone [cfleming22/prophet-challenge]
    cd prophet-challenge
    ```
 
